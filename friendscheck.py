@@ -4,10 +4,10 @@ import time
 print(" Twitter Friendship Checker by Al Salt: ")
 
 # API credentials
-consumer_key = "xxx"
-consumer_secret = "xxx"
-access_key = "xxx"
-access_secret = "xxx"
+consumer_key = "xxxxxx"
+consumer_secret = "xxxxxx"
+access_key = "xxxxxx"
+access_secret = "xxxxxx"
 
 #twitter object
 twitter = Twitter(auth = OAuth(access_key,
