@@ -26,8 +26,8 @@ following = result["relationship"]["target"]["following"]
 follows   = result["relationship"]["target"]["followed_by"]
 
 
-print(str(source) + " follows " + str(target) + " : " + str(follows))
-print(target + " follows " + str(source) + " : " + str(following))
+print(source + " follows " + target + " : " + str(follows))
+print(target + " follows " + source + " : " + str(following))
 
 
 
